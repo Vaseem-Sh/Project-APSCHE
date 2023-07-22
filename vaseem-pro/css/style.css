@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+* {
+    font-family: 'PT Serif', serif;
+}
+
+.bannerBgImage{
+    height: 100vh;
+    background: url("/images/code-image.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.bannerText {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.bannerTitle{
+    font-size: 4rem;
+
+}
+
+.bannerDesc{
+    font-size: 2rem;
+}
+
+.BIcon{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.card{
+    cursor: pointer;
+}
+
+.card:hover{
+    background-color: palevioletred;
+    border: 2px solid yellowgreen;
+}
+
+.img-fluid:hover{
+    border: 2px solid yellowgreen;
+}
+
+.card-img-top{
+    height: 50vh;
+}
